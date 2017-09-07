@@ -20,7 +20,7 @@
                                     <ul class="navigation__list">
                                         <li class="navigation__item"><a href="#home" class="navigation__link navigation__link--active">Home</a></li>
                                         <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
-                                        <li class="navigation__item"><a href="#" class="navigation__link">Services</a></li>
+                                        <li class="navigation__item"><a href="#services" class="navigation__link">Services</a></li>
                                         <li class="navigation__item"><a href="#" class="navigation__link">Gallery</a></li>
                                         <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
                                         <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
@@ -52,7 +52,7 @@
            
 
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <div class="container services__container">
             <div class="services__header">
                 <img class="services__image" src="assets/images/tomatoes.png" alt="">
@@ -60,42 +60,45 @@
                     
             </div>
                 <div class="services__boxes text--center">
-                    <div class="services__box services__box--shopping"><span  class="services__span">Online Shopping</span><figure class="text--center"><img src="assets/images/shopping.png" alt=""></figure></div>
-                    <div class="services__box services__box--product"><span  class="services__span">Quality Product</span></div>
-                    <div class="services__box services__box--delivery"><span  class="services__span">Domestic & International <br> Delivery</span></div>
-                    <div class="services__box services__box--organized"><span  class="services__span">Well Organized</span></div>
+                    <div class="services__box services__box--shopping"><span  class="services__span">Online Shopping</span><figure><img src="assets/images/shopping.png" alt=""></figure></div>
+                    <div class="services__box services__box--product"><span  class="services__span">Quality Product</span><figure><img src="assets/images/product.png" alt=""></figure></div>
+                    <div class="services__box services__box--delivery"><span  class="services__span">Domestic & International <br> Delivery</span><figure><img src="assets/images/delivery.png" alt=""></figure></div>
+                    <div class="services__box services__box--organized"><span  class="services__span">Well Organized</span><figure><img src="assets/images/organized.png" alt=""></figure></div>
                 </div>
     
         </div>
     </section>
-    <section class="gallery">
-        <header class="gallery-header">
-            <h2 class="heading heading--level-2 heading--dark">Gallery</h2>
-            <p class="article__text--dark">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </header>
-        <div class="gall-top">
-            <div class="gall-top__left">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-            </div>
-            <div class="gall-top__right">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <figure>
+    <section class="gallery" id="gallery">
+        <div class="container text--center">
+                <header class="gallery__header text--center">
+                        <h2 class="heading heading--level-2 heading--dark">Gallery</h2>
+                        <p class="article__text--dark gallery__article">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </header>
+                    <div class="gall-top">
+                        <div class="gall-top__left">
+                            <figure>
+                                <img src="" alt="">
+                            </figure>
+                        </div>
+                        <div class="gall-top__right">
+                            <figure>
+                                <img src="" alt="">
+                            </figure>
+                            <figure>
+                                    <img src="" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                   
+                    <div class="gallery__bottom">
                         <img src="" alt="">
-                </figure>
-            </div>
+                        <img src="" alt="">
+                    </div>
+                    <button class="button__gallery">View more</button>
+            
         </div>
-       
-        <div class="gallery__bottom">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <button class="button__gallery">View more</button>
     </section>
-    <section class="subscribe">
+    <section class="subscribe" id="subscribe">
         <h2 class="heading heading--level-3 heading--dark">Subscribe To Us</h2>
         <p class="article__text--dark">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>  
         <div class="input-cont">
@@ -103,7 +106,7 @@
             <button class="button button--input">Subscribe</button>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <header>
             <h2 class="heading heading--level-2 heading--bright">Blog</h2>
             <p class="article__text--bright">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
@@ -127,7 +130,7 @@
         </div>
         <button class="button button--blog">View more</button>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
             <header class="gallery-header">
                     <h2 class="heading heading--level-2 heading--dark">Contact</h2>
                     <p class="article__text--dark">For new projects, ideas, business or anything
