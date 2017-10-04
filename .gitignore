@@ -1,5 +1,6 @@
-.sass-cache
-.idea
-node_modules
+
+/.idea
+/node_modules
 *.psd
 *.txt
+/.sass-cache/
