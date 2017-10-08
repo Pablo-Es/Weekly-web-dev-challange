@@ -3,4 +3,4 @@
 /node_modules
 *.psd
 *.txt
-/.sass-cache/*
+/.sass-cache
